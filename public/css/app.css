@@ -9994,18 +9994,9 @@ a.text-dark:focus {
   }
 }
 
-.container {
-  max-width: 960px;
-}
-
-/*
- * Custom translucent site header
- */
-
 .site-header {
   background-color: rgba(0, 0, 0, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-header a {
@@ -10019,10 +10010,6 @@ a.text-dark:focus {
   text-decoration: none;
 }
 
-/*
- * Extra utilities
- */
-
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -10034,20 +10021,6 @@ a.text-dark:focus {
 .box-shadow {
   -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
           box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-  }
 }
 
 .overflow-hidden {
