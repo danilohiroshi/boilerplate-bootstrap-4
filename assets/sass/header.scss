@@ -1,12 +1,12 @@
 .site-header {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba($black, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     a {
-        color: #999;
+        color: $gray-500;
         transition: ease-in-out color .15s;
         
         &:hover {
-            color: #fff;
+            color: $white;
             text-decoration: none;
         }
     }

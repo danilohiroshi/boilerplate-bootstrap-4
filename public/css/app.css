@@ -10000,7 +10000,7 @@ a.text-dark:focus {
 }
 
 .site-header a {
-  color: #999;
+  color: #adb5bd;
   -webkit-transition: ease-in-out color .15s;
   transition: ease-in-out color .15s;
 }
@@ -10011,11 +10011,11 @@ a.text-dark:focus {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ced4da;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ced4da;
 }
 
 .box-shadow {
