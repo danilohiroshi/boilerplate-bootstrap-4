@@ -9994,6 +9994,23 @@ a.text-dark:focus {
   }
 }
 
+.border-top {
+  border-top: 1px solid #ced4da;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ced4da;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   .navbar-collapse {
     position: absolute;
@@ -10031,20 +10048,9 @@ a.text-dark:focus {
   }
 }
 
-.border-top {
-  border-top: 1px solid #ced4da;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #ced4da;
-}
-
-.box-shadow {
-  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
-.overflow-hidden {
-  overflow: hidden;
+.home-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
