@@ -10011,6 +10011,11 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
+.hr-title {
+  border: 0.1rem #007bff solid;
+  max-width: 5rem;
+}
+
 @media (max-width: 768px) {
   .navbar-collapse {
     position: absolute;
