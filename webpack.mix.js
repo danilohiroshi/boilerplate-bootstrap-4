@@ -13,4 +13,13 @@ let mix = require('laravel-mix');
 
 mix.js('assets/js/app.js', 'public/js')
    .sass('assets/sass/app.scss', 'public/css')
-   .setPublicPath('public');
+   .setPublicPath('public')
+   .browserSync({
+       proxy: 'localhost:5000',
+       files: [
+            'public/*.html',
+            'public/css/*.css',
+            'public/js/*.js',
+
+       ]
+   });
