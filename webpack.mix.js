@@ -20,6 +20,5 @@ mix.js('assets/js/app.js', 'public/js')
             'public/*.html',
             'public/css/*.css',
             'public/js/*.js',
-
        ]
    });
