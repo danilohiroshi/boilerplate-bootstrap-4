@@ -15,7 +15,8 @@ mix.js('assets/js/app.js', 'public/js')
    .sass('assets/sass/app.scss', 'public/css')
    .setPublicPath('public')
    .browserSync({
-       proxy: 'localhost:5000',
+       proxy: false,
+       server: 'public',
        files: [
             'public/*.html',
             'public/css/*.css',
