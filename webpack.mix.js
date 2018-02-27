@@ -22,4 +22,7 @@ mix.js('assets/js/app.js', 'public/js')
             'public/css/*.css',
             'public/js/*.js',
        ]
+   })
+   .options({
+    processCssUrls: false
    });
